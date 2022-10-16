@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c529ddcd7fe7d242b6adfef3ea4ca9b, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - icon: {fileID: 594390398, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Watermelon
+    description: This is a potato. It heals 10 hit points.
+    cost: 10
+  - icon: {fileID: -454065153, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Strawberry
+    description: A special strawberry that regenerates health over time for 5 seconds.
+    cost: 17
+  - icon: {fileID: -1766032921, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Apple
+    description: An apple that rejuvenates lost energy points by 5 points.
+    cost: 23
+  - icon: {fileID: 101043223, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Cherry
+    description: Heals all status ailments.
+    cost: 50
+  - icon: {fileID: -209506391, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Grape
+    description: A special grape that regenerates health over time for 10 seconds.
+    cost: 70
+  - icon: {fileID: -1900257905, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Guava
+    description: Restores total health points.
+    cost: 100
+  - icon: {fileID: -2089100643, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Chilli
+    description: Restores total energy points.
+    cost: 128
+  - icon: {fileID: 1108239245, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Orange
+    description: Restores health points and energy points completely and removes
+      every status ailment user is aflicted with.
+    cost: 182
+  - icon: {fileID: -987984214, guid: a9d488f6249897b4d8665508fbf8998b, type: 3}
+    name: Mysterious Fruit
+    description: Resets all stat points.
+    cost: 237
